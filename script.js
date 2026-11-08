@@ -7,10 +7,9 @@ const downloadBtn = document.getElementById("download-btn");
 const previewBtn = document.getElementById("preview-btn");
 const csvInput = document.getElementById("csv-upload");
 const bulkBtn = document.getElementById("bulk-btn");
-https://github.com/MohamedHesham1911/meem/blob/main/%D8%B5%D9%88%D8%B1%D9%87%20%D8%A7%D8%B6%D8%A7%D9%81%D9%87%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85.png?raw=true
-// CONFIGURATION
-const imageSrc = "./meem-certificate-template.png";
 
+// CONFIGURATION
+const imageSrc = "https://raw.githubusercontent.com/MohamedHesham1911/meem/main/%D8%B5%D9%88%D8%B1%D9%87%20%D8%A7%D8%B6%D8%A7%D9%81%D9%87%20%D8%A7%D9%84%D8%A7%D8%B3%D9%85.png";
 const nameConfig = {
     font: '600 64px "Rubik", sans-serif',
     color: "#3a86ff",
