@@ -55,11 +55,11 @@ function drawCertificate(nameOverride = null) {
     if (nameText) {
         ctx.font = nameConfig.font;
         ctx.fillStyle = nameConfig.color;
-        ctx.textAlign = "left";
+ctx.textAlign = "center";
         if (ctx.letterSpacing !== undefined) {
             ctx.letterSpacing = nameConfig.tracking;
         }
-        ctx.fillText(nameText, nameConfig.x, nameConfig.y);
+ctx.fillText(nameText, canvas.width / 2, nameConfig.y);
     }
 
     if (dateText) {
