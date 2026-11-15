@@ -11,6 +11,12 @@ const bulkBtn = document.getElementById("bulk-btn");
 // CONFIGURATION
 const imageSrc = "https://raw.githubusercontent.com/MohamedHesham1911/meem/main/mohamed2007.png";
 const nameConfig = {
+    font: 'italic 130px "Brush Script MT", "Segoe Script", cursive',
+    color: "#000000",
+    x: 1000,
+    y: 790,
+    tracking: "0px",
+};
     font: '600 64px "Rubik", sans-serif',
   color: "#000000",
     x: 220,
@@ -52,7 +58,17 @@ function drawCertificate(nameOverride = null) {
     const rawDate = dateInput.value;
     const dateText = formatDate(rawDate);
 
-    if (nameText) {
+if (nameText) {
+    ctx.font = nameConfig.font;
+    ctx.fillStyle = nameConfig.color;
+    ctx.textAlign = "center";
+
+    if (ctx.letterSpacing !== undefined) {
+        ctx.letterSpacing = nameConfig.tracking;
+    }
+
+    ctx.fillText(nameText, canvas.width / 2, nameConfig.y);
+}
         ctx.font = nameConfig.font;
         ctx.fillStyle = nameConfig.color;
 ctx.textAlign = "center";
