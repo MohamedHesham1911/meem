@@ -11,20 +11,13 @@ const bulkBtn = document.getElementById("bulk-btn");
 // CONFIGURATION
 const imageSrc = "https://raw.githubusercontent.com/MohamedHesham1911/meem/main/mohamed2007.png";
 const nameConfig = {
+  const nameConfig = {
     font: 'italic 130px "Brush Script MT", "Segoe Script", cursive',
     color: "#000000",
     x: 1000,
     y: 790,
     tracking: "0px",
 };
-    font: '600 64px "Rubik", sans-serif',
-  color: "#000000",
-    x: 220,
-    y: 700,
-    tracking: "4px",
-};
-
-const dateConfig = {
     font: '600 32px "Inter", sans-serif',
     color: "#3a86ff",
     x: 500,
