@@ -12,7 +12,7 @@ const bulkBtn = document.getElementById("bulk-btn");
 const imageSrc = "https://raw.githubusercontent.com/MohamedHesham1911/meem/main/mohamed2007.png";
 const nameConfig = {
     font: '600 64px "Rubik", sans-serif',
-    color: "#3a86ff",
+  color: "#000000",
     x: 220,
     y: 700,
     tracking: "4px",
